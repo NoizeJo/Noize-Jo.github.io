@@ -1,0 +1,18 @@
+Install
+You have to use the extension installer.
+
+INSTALLATION INSTRUCTIONS - OCMOD (ZIP) 
+
+FTP HAS TO BE ENABLED IN OPENCART SETTINGS! Or you can use QuickFix!
+
+In "Extensions > Extension Installer" press the blue "Upload" button and upload the file "darkvelvet.ocmod.zip".
+In "Extensions > Modifications" press the top right blue "Refresh" button (circular arrows) to refresh the modification cache.
+Done! 
+
+Dark velvet use your default template. So you have to choose default or dark velvet template to use it.
+
+Uninstall
+
+Disable or remove dark velvet template from your modifications.
+
+http://www.grandcms.com/

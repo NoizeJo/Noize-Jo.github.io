@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+  <name>Dark Velvet Template by GrandCMS.com</name>
+  <version>1.0</version>
+  <author>GrandCMS.com</author>
+  <link>http://www.grandcms.com</link>
+  <code>darkvelvet_ocmod</code>
+  <file path="catalog/view/theme/default/template/common/header.tpl">
+    <operation>
+      <search><![CDATA[<link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">]]></search>
+      <add position="replace"><![CDATA[<link href="catalog/view/theme/dark_velvet/stylesheet/stylesheet.css" rel="stylesheet">]]></add>
+    </operation>
+    <operation>
+      <search><![CDATA[<body class="<?php echo $class; ?>">]]></search>
+      <add position="replace"><![CDATA[<body style="background-color: #13181e;" class="<?php echo $class; ?>">
+      <div class="body_wrap">]]></add>
+    </operation>
+  </file>
+  <file path="catalog/view/theme/default/template/common/footer.tpl">
+    <operation>
+      <search><![CDATA[</body></html>]]></search>
+      <add position="before"><![CDATA[</div><!-- body_wrap -->]]></add>
+    </operation>
+  </file>
+</modification>
